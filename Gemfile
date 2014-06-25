@@ -4,7 +4,7 @@ gem 'jbuilder'
 gem 'pg'
 gem 'active_model_serializers'
 
-group :test, :development, :staging do
+group :test, :development do
   gem 'pry'
   gem 'pry-plus'
   gem 'faker'
