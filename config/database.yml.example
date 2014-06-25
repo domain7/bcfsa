@@ -1,0 +1,31 @@
+common: &common
+  adapter: postgresql
+  encoding: unicode
+  port: 5432
+  pool: 5
+#  sslmode: require
+  host: localhost
+
+development:
+  database: school
+  username: domain7
+  password:
+  <<: *common
+
+test: &TEST
+  database: school_test
+  username: domain7
+  password:
+  <<: *common
+
+staging:
+  database: school_stage
+  username: domain7
+  password:
+  <<: *common
+
+production: &production
+  database: school_prod
+  username: domain7
+  password:
+  <<: *common

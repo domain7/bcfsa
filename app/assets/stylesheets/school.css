@@ -1,0 +1,6 @@
+body {
+  font-family: arial;
+}
+#district-id, #district-id * {
+  font-size: 10px;
+}

@@ -1,0 +1,39 @@
+<html>
+<head>
+   <title>BC School Test Scores</title>
+   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+   <link rel="stylesheet" href="leaflet.label.css" />
+   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="Leaflet.awesome-markers/leaflet.awesome-markers.css">
+   <link rel="stylesheet" href="MarkerCluster.Default.css">
+   <link rel="stylesheet" href="MarkerCluster.css">
+   <link rel="stylesheet" href="select2-3.5.0/select2.css">
+   <link rel="stylesheet" href="/assets/application.css">
+
+   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+   <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+   <script src="leaflet.label-src.js"></script>
+
+   <script src="Leaflet.awesome-markers/leaflet.awesome-markers.min.js"></script>
+   <script src="leaflet.markercluster.js"></script>
+   <script src="select2-3.5.0/select2.min.js"></script>
+   <script src="jquery.ba-dotimeout.min.js"></script>
+
+   <link rel="points" type="application/json" href="/school_district.json">
+   <link rel="points" type="application/json" href="/vancouver-elementary.json">
+
+   <style>
+     body {
+        margin: 0;
+        padding: 0;
+     }
+
+     #map {
+       height: 100%;
+     }
+   </style>
+</head>
+<body>
+<%= yield %>
+</body>
+</html>

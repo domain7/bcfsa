@@ -1,0 +1,5 @@
+== README
+
+rake db:create
+rake db:migrate
+rake open_data:load
